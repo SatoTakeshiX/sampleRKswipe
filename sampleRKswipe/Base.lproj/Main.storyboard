@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Xkx-BP-oim">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ShL-KY-XU5">
+            <objects>
+                <viewController storyboardIdentifier="spaceImage" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tzQ-8Q-qIf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mWA-4d-udE"/>
+                        <viewControllerLayoutGuide type="bottom" id="DHE-co-bxL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="68r-g3-t0V">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="37871242_p1_master1200" translatesAutoresizingMaskIntoConstraints="NO" id="jdm-7O-uNy">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DHE-co-bxL" firstAttribute="top" secondItem="jdm-7O-uNy" secondAttribute="bottom" id="3Yk-xv-oDP"/>
+                            <constraint firstItem="jdm-7O-uNy" firstAttribute="top" secondItem="68r-g3-t0V" secondAttribute="topMargin" id="GGc-8w-sCD"/>
+                            <constraint firstItem="jdm-7O-uNy" firstAttribute="leading" secondItem="68r-g3-t0V" secondAttribute="leadingMargin" constant="-16" id="iVF-DC-TgW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jdm-7O-uNy" secondAttribute="trailing" constant="-16" id="j21-SY-uK3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WuL-jP-0rf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1676" y="1690"/>
+        </scene>
+        <!--Swipe Between View Controllers-->
+        <scene sceneID="5He-sS-Bga">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Xkx-BP-oim" customClass="RKSwipeBetweenViewControllers" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sP7-xT-Ud9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="rCb-Ht-6iY" kind="relationship" relationship="rootViewController" id="dZI-lg-IKw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="daZ-pB-Crd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="249" y="1021"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="5OC-NG-NFH">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="rCb-Ht-6iY" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="r3E-mt-kPK"/>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pRV-yE-E3Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="947" y="1021"/>
+        </scene>
+        <!--table-->
+        <scene sceneID="fXP-c3-eIh">
+            <objects>
+                <tableViewController storyboardIdentifier="tabelview" title="table" useStoryboardIdentifierAsRestorationIdentifier="YES" id="psu-yl-QqI" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="rRb-9y-Lxo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="udX-nT-qDz">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="205" id="lGC-G1-R4D">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lGC-G1-R4D" id="QHI-jN-wyT">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="37871242_p1_master1200" translatesAutoresizingMaskIntoConstraints="NO" id="uzz-vf-zbc">
+                                                    <rect key="frame" x="472" y="8" width="120" height="188"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="120" id="4iE-5s-9kD"/>
+                                                        <constraint firstAttribute="height" constant="188" id="92g-sA-AQk"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="七夕は「たなばた」または「しちせき」とも読み、古くから行われている日本のお祭り行事で、一年間の重要な節句をあらわす五節句のひとつにも数えられています。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dE5-cb-Yj9">
+                                                    <rect key="frame" x="8" y="56" width="456" height="91"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="dE5-cb-Yj9" firstAttribute="leading" secondItem="QHI-jN-wyT" secondAttribute="leadingMargin" id="D1z-2T-Yup"/>
+                                                <constraint firstItem="uzz-vf-zbc" firstAttribute="bottom" secondItem="QHI-jN-wyT" secondAttribute="bottomMargin" id="IU9-PY-IDS"/>
+                                                <constraint firstItem="uzz-vf-zbc" firstAttribute="leading" secondItem="dE5-cb-Yj9" secondAttribute="trailing" constant="8" id="Itd-II-3CN"/>
+                                                <constraint firstItem="uzz-vf-zbc" firstAttribute="trailing" secondItem="QHI-jN-wyT" secondAttribute="trailingMargin" id="VuT-Dc-VHP"/>
+                                                <constraint firstItem="uzz-vf-zbc" firstAttribute="top" secondItem="QHI-jN-wyT" secondAttribute="topMargin" id="puX-iM-znA"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="dE5-cb-Yj9" secondAttribute="bottom" constant="49" id="r7n-rm-Fw7"/>
+                                                <constraint firstItem="dE5-cb-Yj9" firstAttribute="top" secondItem="QHI-jN-wyT" secondAttribute="topMargin" constant="48" id="z2J-eO-pWd"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="psu-yl-QqI" id="6Oe-QZ-sSs"/>
+                            <outlet property="delegate" destination="psu-yl-QqI" id="nKe-AC-q8Y"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fzP-d8-HNZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1625" y="1021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="37871242_p1_master1200" width="1200" height="800"/>
+    </resources>
+</document>

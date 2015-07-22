@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		304759251B5FEDA10080F0AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 304759241B5FEDA10080F0AA /* main.m */; };
+		304759281B5FEDA10080F0AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 304759271B5FEDA10080F0AA /* AppDelegate.m */; };
+		3047592B1B5FEDA10080F0AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047592A1B5FEDA10080F0AA /* ViewController.m */; };
+		3047592E1B5FEDA10080F0AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3047592C1B5FEDA10080F0AA /* Main.storyboard */; };
+		304759301B5FEDA10080F0AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3047592F1B5FEDA10080F0AA /* Images.xcassets */; };
+		304759331B5FEDA10080F0AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 304759311B5FEDA10080F0AA /* LaunchScreen.xib */; };
+		3047593F1B5FEDA10080F0AA /* sampleRKswipeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047593E1B5FEDA10080F0AA /* sampleRKswipeTests.m */; };
+		3047594B1B5FEDD10080F0AA /* RKSwipeBetweenViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047594A1B5FEDD10080F0AA /* RKSwipeBetweenViewControllers.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		304759391B5FEDA10080F0AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 304759171B5FEDA10080F0AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3047591E1B5FEDA10080F0AA;
+			remoteInfo = sampleRKswipe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3047591F1B5FEDA10080F0AA /* sampleRKswipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleRKswipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		304759231B5FEDA10080F0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304759241B5FEDA10080F0AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		304759261B5FEDA10080F0AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		304759271B5FEDA10080F0AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		304759291B5FEDA10080F0AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3047592A1B5FEDA10080F0AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3047592D1B5FEDA10080F0AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3047592F1B5FEDA10080F0AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		304759321B5FEDA10080F0AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		304759381B5FEDA10080F0AA /* sampleRKswipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleRKswipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3047593D1B5FEDA10080F0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3047593E1B5FEDA10080F0AA /* sampleRKswipeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sampleRKswipeTests.m; sourceTree = "<group>"; };
+		304759491B5FEDD10080F0AA /* RKSwipeBetweenViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKSwipeBetweenViewControllers.h; sourceTree = "<group>"; };
+		3047594A1B5FEDD10080F0AA /* RKSwipeBetweenViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKSwipeBetweenViewControllers.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3047591C1B5FEDA10080F0AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		304759351B5FEDA10080F0AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		304759161B5FEDA10080F0AA = {
+			isa = PBXGroup;
+			children = (
+				304759211B5FEDA10080F0AA /* sampleRKswipe */,
+				3047593B1B5FEDA10080F0AA /* sampleRKswipeTests */,
+				304759201B5FEDA10080F0AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		304759201B5FEDA10080F0AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3047591F1B5FEDA10080F0AA /* sampleRKswipe.app */,
+				304759381B5FEDA10080F0AA /* sampleRKswipeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		304759211B5FEDA10080F0AA /* sampleRKswipe */ = {
+			isa = PBXGroup;
+			children = (
+				304759261B5FEDA10080F0AA /* AppDelegate.h */,
+				304759271B5FEDA10080F0AA /* AppDelegate.m */,
+				304759291B5FEDA10080F0AA /* ViewController.h */,
+				3047592A1B5FEDA10080F0AA /* ViewController.m */,
+				304759491B5FEDD10080F0AA /* RKSwipeBetweenViewControllers.h */,
+				3047594A1B5FEDD10080F0AA /* RKSwipeBetweenViewControllers.m */,
+				3047592C1B5FEDA10080F0AA /* Main.storyboard */,
+				3047592F1B5FEDA10080F0AA /* Images.xcassets */,
+				304759311B5FEDA10080F0AA /* LaunchScreen.xib */,
+				304759221B5FEDA10080F0AA /* Supporting Files */,
+			);
+			path = sampleRKswipe;
+			sourceTree = "<group>";
+		};
+		304759221B5FEDA10080F0AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				304759231B5FEDA10080F0AA /* Info.plist */,
+				304759241B5FEDA10080F0AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3047593B1B5FEDA10080F0AA /* sampleRKswipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3047593E1B5FEDA10080F0AA /* sampleRKswipeTests.m */,
+				3047593C1B5FEDA10080F0AA /* Supporting Files */,
+			);
+			path = sampleRKswipeTests;
+			sourceTree = "<group>";
+		};
+		3047593C1B5FEDA10080F0AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3047593D1B5FEDA10080F0AA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3047591E1B5FEDA10080F0AA /* sampleRKswipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 304759421B5FEDA10080F0AA /* Build configuration list for PBXNativeTarget "sampleRKswipe" */;
+			buildPhases = (
+				3047591B1B5FEDA10080F0AA /* Sources */,
+				3047591C1B5FEDA10080F0AA /* Frameworks */,
+				3047591D1B5FEDA10080F0AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sampleRKswipe;
+			productName = sampleRKswipe;
+			productReference = 3047591F1B5FEDA10080F0AA /* sampleRKswipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		304759371B5FEDA10080F0AA /* sampleRKswipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 304759451B5FEDA10080F0AA /* Build configuration list for PBXNativeTarget "sampleRKswipeTests" */;
+			buildPhases = (
+				304759341B5FEDA10080F0AA /* Sources */,
+				304759351B5FEDA10080F0AA /* Frameworks */,
+				304759361B5FEDA10080F0AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3047593A1B5FEDA10080F0AA /* PBXTargetDependency */,
+			);
+			name = sampleRKswipeTests;
+			productName = sampleRKswipeTests;
+			productReference = 304759381B5FEDA10080F0AA /* sampleRKswipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		304759171B5FEDA10080F0AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = satoutakeshi;
+				TargetAttributes = {
+					3047591E1B5FEDA10080F0AA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					304759371B5FEDA10080F0AA = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 3047591E1B5FEDA10080F0AA;
+					};
+				};
+			};
+			buildConfigurationList = 3047591A1B5FEDA10080F0AA /* Build configuration list for PBXProject "sampleRKswipe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 304759161B5FEDA10080F0AA;
+			productRefGroup = 304759201B5FEDA10080F0AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3047591E1B5FEDA10080F0AA /* sampleRKswipe */,
+				304759371B5FEDA10080F0AA /* sampleRKswipeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3047591D1B5FEDA10080F0AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3047592E1B5FEDA10080F0AA /* Main.storyboard in Resources */,
+				304759331B5FEDA10080F0AA /* LaunchScreen.xib in Resources */,
+				304759301B5FEDA10080F0AA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		304759361B5FEDA10080F0AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3047591B1B5FEDA10080F0AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3047592B1B5FEDA10080F0AA /* ViewController.m in Sources */,
+				304759281B5FEDA10080F0AA /* AppDelegate.m in Sources */,
+				304759251B5FEDA10080F0AA /* main.m in Sources */,
+				3047594B1B5FEDD10080F0AA /* RKSwipeBetweenViewControllers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		304759341B5FEDA10080F0AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3047593F1B5FEDA10080F0AA /* sampleRKswipeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3047593A1B5FEDA10080F0AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3047591E1B5FEDA10080F0AA /* sampleRKswipe */;
+			targetProxy = 304759391B5FEDA10080F0AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3047592C1B5FEDA10080F0AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3047592D1B5FEDA10080F0AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		304759311B5FEDA10080F0AA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				304759321B5FEDA10080F0AA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		304759401B5FEDA10080F0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		304759411B5FEDA10080F0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		304759431B5FEDA10080F0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sampleRKswipe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		304759441B5FEDA10080F0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sampleRKswipe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		304759461B5FEDA10080F0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = sampleRKswipeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleRKswipe.app/sampleRKswipe";
+			};
+			name = Debug;
+		};
+		304759471B5FEDA10080F0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = sampleRKswipeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleRKswipe.app/sampleRKswipe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3047591A1B5FEDA10080F0AA /* Build configuration list for PBXProject "sampleRKswipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				304759401B5FEDA10080F0AA /* Debug */,
+				304759411B5FEDA10080F0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		304759421B5FEDA10080F0AA /* Build configuration list for PBXNativeTarget "sampleRKswipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				304759431B5FEDA10080F0AA /* Debug */,
+				304759441B5FEDA10080F0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		304759451B5FEDA10080F0AA /* Build configuration list for PBXNativeTarget "sampleRKswipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				304759461B5FEDA10080F0AA /* Debug */,
+				304759471B5FEDA10080F0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 304759171B5FEDA10080F0AA /* Project object */;
+}
